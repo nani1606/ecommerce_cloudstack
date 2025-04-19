@@ -9,6 +9,9 @@ This project processes ~779,495 e-commerce sales records from the [Online Retail
 - Transforms data with AWS Glue (e.g., aggregates sales by product).
 - Loads data into AWS Redshift for analytics.
 - Runs SQL queries to derive insights (e.g., top-selling products).
+![image](https://github.com/user-attachments/assets/4a259e28-54b6-4f29-935f-e8ebeea24f12)
+![image](https://github.com/user-attachments/assets/15fc77e5-2231-47dc-b25f-c04917c316b6)
+
 
 ## Architecture
 ```mermaid
@@ -18,8 +21,3 @@ graph TD
     C --> D[AWS Glue<br>ecommerce-etl]
     D --> E[AWS S3<br>transformed/]
     C --> F[AWS Redshift<br>ecommerce]
-
-
-Redshift screenshot
-![alt text](image.png)
-![alt text](image-1.png)
